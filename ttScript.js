@@ -11,8 +11,8 @@ const row3 = [6, 7, 8];
 const col1 = [0, 3, 6];
 const col2 = [1, 4, 7];
 const col3 = [2, 5, 8];
-const d1 = [1, 5, 8];
-const d2 = [3, 5, 7];
+const d1 = [0, 4, 9];
+const d2 = [2, 4, 6];
 
 // Event Listeners
 boardElement.addEventListener('click', updateBoard);
