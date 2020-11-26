@@ -1,0 +1,26 @@
+.ticTacToe-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.ticTacToe-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.box {
+  border: 1px solid black;
+  height: 6rem;
+  width: 6rem;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  padding: 0.3rem;
+}
+
+.box:hover {
+  cursor: pointer;
+}
